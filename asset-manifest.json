@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/shopping-using-context/static/css/main.c2fb3994.chunk.css",
+    "main.js": "/shopping-using-context/static/js/main.1f47c1a5.chunk.js",
+    "main.js.map": "/shopping-using-context/static/js/main.1f47c1a5.chunk.js.map",
+    "runtime-main.js": "/shopping-using-context/static/js/runtime-main.f110f830.js",
+    "runtime-main.js.map": "/shopping-using-context/static/js/runtime-main.f110f830.js.map",
+    "static/js/2.cd02ba22.chunk.js": "/shopping-using-context/static/js/2.cd02ba22.chunk.js",
+    "static/js/2.cd02ba22.chunk.js.map": "/shopping-using-context/static/js/2.cd02ba22.chunk.js.map",
+    "index.html": "/shopping-using-context/index.html",
+    "precache-manifest.679ab2d8709c09158f6bd2d46aeefe2e.js": "/shopping-using-context/precache-manifest.679ab2d8709c09158f6bd2d46aeefe2e.js",
+    "service-worker.js": "/shopping-using-context/service-worker.js",
+    "static/css/main.c2fb3994.chunk.css.map": "/shopping-using-context/static/css/main.c2fb3994.chunk.css.map",
+    "static/js/2.cd02ba22.chunk.js.LICENSE.txt": "/shopping-using-context/static/js/2.cd02ba22.chunk.js.LICENSE.txt",
+    "static/media/img1.png": "/shopping-using-context/static/media/img1.3cfc1a79.png",
+    "static/media/img10.png": "/shopping-using-context/static/media/img10.d9206f28.png",
+    "static/media/img12.png": "/shopping-using-context/static/media/img12.3ba15650.png",
+    "static/media/img13.png": "/shopping-using-context/static/media/img13.3e6f471f.png",
+    "static/media/img2.png": "/shopping-using-context/static/media/img2.7b1d1f28.png",
+    "static/media/img3.png": "/shopping-using-context/static/media/img3.e7fe73ce.png",
+    "static/media/img4.png": "/shopping-using-context/static/media/img4.852cc0d2.png",
+    "static/media/img5.png": "/shopping-using-context/static/media/img5.dcf23a17.png",
+    "static/media/img6.png": "/shopping-using-context/static/media/img6.b394c43e.png",
+    "static/media/img7.png": "/shopping-using-context/static/media/img7.e595da60.png",
+    "static/media/img8.png": "/shopping-using-context/static/media/img8.98709bb9.png",
+    "static/media/img9.png": "/shopping-using-context/static/media/img9.3c651af1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f110f830.js",
+    "static/js/2.cd02ba22.chunk.js",
+    "static/css/main.c2fb3994.chunk.css",
+    "static/js/main.1f47c1a5.chunk.js"
+  ]
+}
