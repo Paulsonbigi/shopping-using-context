@@ -1,0 +1,99 @@
+a{
+    text-decoration: none;
+}
+.footer_container{
+    background: rgb(39, 86, 102);
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    flex-direction: column;
+}
+.main_footer{
+    width: 100%;
+    display: flex;
+}
+@media (max-width: 450px){
+    .main_footer{
+        flex-direction: column;
+    }
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding-right: 20px;
+}
+@media (max-width: 450px){
+    .company{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.company h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.company h4 a{
+    color: whitesmoke;
+}
+.company span{
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 300;
+}
+.company_links{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-direction: row;
+    line-height: 2;
+}
+@media (max-width: 450px){
+    .company_links{
+        width: 100%;
+        justify-content: flex-start;
+        margin-bottom: 20px; 
+    }
+}
+.company_links a{
+    font-weight: 300;
+    color: #000;
+}
+.section1{
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 450px){
+    .section1{
+        width: 50%;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+}
+h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+.general{
+    margin-bottom: 20px;
+    margin-right: 60px;
+}
+@media (max-width: 450px){
+    .general{
+        margin-right: 0;
+    }
+}
+.company{
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+

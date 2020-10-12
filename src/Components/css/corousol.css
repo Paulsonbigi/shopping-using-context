@@ -1,0 +1,87 @@
+.wrapper{
+    max-width: 1240px;
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 40px;
+} 
+@media (max-width: 450px){
+    .company{
+        margin: 40px;
+    }
+}
+.apps{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.carol_card{
+    min-width: 25%;
+    overflow: hidden;
+    padding: 5px;
+    border: 3px solid #eee;
+}
+.carol_card img{
+    width: 100%;
+    height: 200px;
+    display: block;
+    object-fit: contain;
+}
+.carol_card h2{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  opacity: 0.8;    
+} 
+.carol_card p{
+    opacity: 0.7;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+.carol_card a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px 0;
+    color: rgb(39, 86, 102);
+}
+.carol_card a:hover{
+    color: crimson;
+}
+.prev, .next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: crimson;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}
+@media(max-width: 900px){
+    .carol_card{
+        min-width: 50%;
+    }
+}
+@media(max-width: 550px){
+    .carol_card{
+        min-width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

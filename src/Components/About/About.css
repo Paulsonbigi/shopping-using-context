@@ -1,0 +1,37 @@
+.about{
+    /* max-width: 1200px; */
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.about h3{
+    color: rgb(39, 86, 102);
+    text-align: center;
+}
+.about_container{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.about_img{
+    padding: 20px;
+}
+.about_img img{
+    height: 400px;
+    width: 500px;
+}
+.about_text{
+    padding: 20px;
+}
+@media (max-width: 450px){
+    .about_container{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .about_img img{
+        width: 300px;
+        height: 300px;
+    }
+}
