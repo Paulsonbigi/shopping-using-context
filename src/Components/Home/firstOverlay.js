@@ -13,7 +13,7 @@ export default class FirstOverlay extends Component{
                 <div className="home_text">
                     <h3>Special Offer</h3>
                     <p>BuxxShop offers every customer quality products 
-                        which suites your every demands </p>
+                        which suites your every demand </p>
                         <button className="home_btn">
                             <Link to="/product">Our products</Link>
                         </button>

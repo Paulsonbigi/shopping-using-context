@@ -47,9 +47,9 @@ export default class Corousol extends Component{
                         products.map(product =>(
                             <div className="carol_card" key={product._id}>
                                 <img src={product.src} alt=""/>
-                                <div>
+                                <div className="content">
                         <h2>{product.title}</h2>
-                        <p>{product.description}</p>
+                        <p className="description">{product.description}</p>
                         <p><Link to={`/product/${product._id}`}>More</Link></p>
                                 </div>
                             </div>  
