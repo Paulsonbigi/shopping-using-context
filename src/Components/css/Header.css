@@ -6,7 +6,7 @@ header {
     position: sticky;
     box-shadow: 0px 0px 5px rgb(112, 107, 108);
     height: 75px;
-    background-color: white;
+    background-color: #ffffff;
     top: 0;
     z-index: 100;
     overflow: hidden;
@@ -59,7 +59,7 @@ nav .nav-cart span{
     right: -7px;
     background: crimson;
     font-size: 10px;
-    color: white;
+    color: rgb(238, 246, 254);
     padding: 3px 5px;
     border-radius: 50%;
     z-index: -1;
@@ -74,11 +74,12 @@ nav .nav-cart span{
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        background: white;
+        background: #ffffff;
         z-index: 99;
         opacity: 0.97;
         transform: 0.5s linear;
         height: 100vh;
+        transition: 1s ease-in-out;
     }
     header .menu{
         display: flex;
@@ -93,7 +94,9 @@ nav .nav-cart span{
         top: 0;
     }
 }
-
+.shop{
+    color: rgb(39, 86, 102);
+}
 
 
 

@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { Link} from "react-router-dom"
 import "../css/Header.css"
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket"
 import { DataContext } from "../files/Context"
 
 export default class NavBar extends Component{
@@ -42,7 +43,7 @@ export default class NavBar extends Component{
                     <div className="nav-cart">
                         <span>{cart.length}</span>
                         <Link to="/cart">
-                             @
+                             <ShoppingBasketIcon className="shop"/>
                         </Link>
                     </div>
                 </nav>
